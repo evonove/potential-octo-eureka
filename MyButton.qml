@@ -49,15 +49,14 @@ T.Button {
     // TODO: Add a proper ripple/ink effect for mouse/touch input and focus state
 
     background: Item {
-        implicitWidth: 64
-        implicitHeight: control.Material.buttonHeight
-
+        implicitWidth: 277
+        implicitHeight: 50
 
         DropShadow {
             anchors.fill: root
             horizontalOffset: 3
             verticalOffset: 3
-            radius: 8.0
+            radius: 16.0
             samples: 17
             color: "#80000000"
             source: root
@@ -68,7 +67,7 @@ T.Button {
 
             anchors.fill: parent
 
-            property int triangle: 25
+            property int triangle: 20
 
             ShapePath {
                strokeWidth: 2
